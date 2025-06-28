@@ -6,8 +6,6 @@ terraform {
       version  = "3.43.0"
     }
   }
-}
-terraform {
   cloud {
 
     organization = "JunkFunnel"
@@ -17,6 +15,9 @@ terraform {
     }
   }
 }
+
+  
+
 
 provider "azurerm" {
   features {}
